@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #4fc0d0;
+  --secondary-color: #164b60;
+}
+.App {
+  font-family: "Lato", sans-serif;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px 10px;
+}
+header {
+  background-color: var(--secondary-color);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+img {
+  height: 60px;
+}
+.light {
+  background-color: white;
+  transition: all 500ms;
+}
+.dark {
+  background-color: rgb(41, 41, 41);
+  transition: all 500ms;
+}
+.themes .activeTheme {
+  height: 25px;
+  width: 25px;
+}
